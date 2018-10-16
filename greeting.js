@@ -134,3 +134,19 @@ for(i=0; i<types.length+1; i++){
 
 
 // 9
+let x =7;
+  
+   console.log(x);
+   console.log('the value of x is 7 but next line will store the remainder of 7 divided by 3 in \'x\'');
+   x= x % 3;
+   console.log(x);
+
+   //10
+   var newArray = ["John", 2018, true, undefined];
+console.log(newArray);
+console.log('so an array can store multiple datatypes');
+var a1 = 6/0;
+var a2 = 10/0;
+if(typeof(a1)===typeof(a2)){
+    console.log("yes we can compare infinites.");
+};
